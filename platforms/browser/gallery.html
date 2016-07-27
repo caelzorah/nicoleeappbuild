@@ -24,6 +24,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--component-css-->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<!--bootstrap-->
+<link href="css/featherlight.min.css" type="text/css" rel="stylesheet" />
+<!--featherlight cdn--> 
 			
     <!--script-->
 <script src="js/bigSlide.js"></script>
@@ -128,7 +131,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
 					</div>
 					<div class="Profile-mid">
-						<h5 class="pro-link">NAVIGATION</h5>
+						<h5 class="pro-link"></h5>
 					</div>
 					<div class="Profile-right">
 						<div id="dd1" class="wrapper-dropdown-1" tabindex="1">
@@ -143,40 +146,49 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  <div class="maincont">	
 					<div class="details-shade">
                         <img class ="bannerimage" src="images/BANNER.jpg" alt="BANNER" />
-						<div class="profile-grids">
+						<div class="profile-grids" id="gallerygrid">
                             <img class="img-circle border-effect1 logo circle" src="images/LOGO.png" alt="LOGO" />
-						<h3>TOUR</h3>
-						<table class="tourtable">
-                            <tr><td class="tableheading">Date</td>
-                                <td class="tableheading">Location</td>
-                                <td class="tableheading">Tickets</td>
-                            </tr>
-                            <tr><td>Sat 25th June</td>
-                                <td>Stag &amp; Hunter Hotel, Mayfield</td>
-                                <td><a href="#">Buy</a></td>
-                            </tr>
-                            <tr><td>Sat 2nd July</td>
-                                <td>The Loft, Newcastle</td>
-                                <td><a href="#">Buy</a></td>
-                            </tr>
-                            <tr><td>Sun 3rd July</td>
-                                <td>The Rooftop, Kotara</td>
-                                <td><a href="#">Buy</a></td>
-                            </tr>
-                            <tr><td>Sun 17th July</td>
-                                <td>The Rooftop, Kotara</td>
-                                <td><a href="#">Buy</a></td>
-                            </tr>
-                            <tr><td>Sat 30th July</td>
-                                <td>Stag &amp; Hunter Hotel, Mayfield</td>
-                                <td><a href="#">Buy</a></td>
-                            </tr>
-                        </table>
+							
+						<h3>GALLERY</h3>
+                            <br class="clear">
+                    <div class="gallerybox">
+					   <div class="gallerypic port-grids viewleft">
+                            <a href="images/gallery/01.jpg" data-featherlight="images/gallery/01.jpg"><img src="images/gallery/01.jpg" class="img-responsive" alt=""/></a>
+						</div>
+						<div class="gallerypic port-grids viewright">
+                            <a href="images/gallery/03.jpg" data-featherlight="images/gallery/03.jpg"><img src="images/gallery/03.jpg" class="img-responsive" alt=""/></a>
+						</div>
+						<div class="gallerypic port-grids viewleft">
+                            <a href="images/gallery/04.jpg" data-featherlight="images/gallery/04.jpg"><img src="images/gallery/04.jpg" class="img-responsive" alt=""/></a>
+						</div>
+						<div class="gallerypic port-grids viewright">
+                            <a href="images/gallery/05.jpg" data-featherlight="images/gallery/05.jpg"><img src="images/gallery/05.jpg" class="img-responsive" alt=""/></a>
+						</div>
+						<div class="gallerypic port-grids viewleft">
+                            <a href="images/gallery/06.jpg" data-featherlight="images/gallery/06.jpg"><img src="images/gallery/06.jpg" class="img-responsive" alt=""/></a>
+						</div>
+                        <div class="gallerypic port-grids viewright">
+                            <a href="images/gallery/07.jpg" data-featherlight="images/gallery/07.jpg"><img src="images/gallery/07.jpg" class="img-responsive" alt=""/></a>
+						</div>
+                        <div class="gallerypic port-grids viewleft">
+                            <a href="images/gallery/08.jpg" data-featherlight="images/gallery/08.jpg"><img src="images/gallery/08.jpg" class="img-responsive" alt=""/></a>
+						</div>
+                        <div class="gallerypic port-grids viewright">
+                            <a href="images/gallery/09.jpg" data-featherlight="images/gallery/09.jpg"><img src="images/gallery/09.jpg" class="img-responsive" alt=""/></a>
+						</div>
+                        <div class="gallerypic port-grids viewleft">
+                            <a href="images/gallery/10.jpg" data-featherlight="images/gallery/09.jpg"><img src="images/gallery/10.jpg" class="img-responsive" alt=""/></a>
+						</div>
+                        <div class="gallerypic port-grids viewright">
+                            <a href="images/gallery/11.jpg" data-featherlight="images/gallery/11.jpg"><img src="images/gallery/11.jpg" class="img-responsive" alt=""/></a>
+						</div>
+                    </div>
+                        <br class="clear">  
                     </div>    
 				 </div>
                 </div>
-                <br class="clear">
 					
+<br class="clear">
  
     <!--FOOTER-->
                 
@@ -193,6 +205,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
   <script src="js/jquery.nicescroll.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<!--featherlight javascript link-->
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
   <script type="text/javascript">
